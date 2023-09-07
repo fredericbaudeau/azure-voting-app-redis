@@ -19,7 +19,7 @@ jobs:
         uses: azure/aks-set-context@v3
         with:
           resource-group: '02-frederic' 
-          cluster-name: 'AKSFred'
+          cluster-name: 'AKSFrederic'
       - name: Setup kubectl
         id: install-kubectl
         uses: azure/setup-kubectl@v3
